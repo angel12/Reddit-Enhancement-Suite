@@ -26,6 +26,12 @@ const browserConfig = {
 		output: 'edgeextension/manifest',
 		noZip: true,
 	},
+	safari: {
+		target: 'safari',
+		entry: 'safari/Info.plist',
+		environment: 'safari/environment',
+		output: 'RES.safariextension',
+	},
 	firefox: {
 		target: 'firefox',
 		entry: 'firefox/manifest.json',
